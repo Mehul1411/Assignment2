@@ -1,0 +1,57 @@
+em{
+	font-style: italic;
+}
+body{
+	background: #000;
+}
+table{
+	border: 3 solid black;
+	height: 100%;
+	width: 100%; 
+	background: lightgreen;
+}
+a{
+	text-decoration: none;
+}
+.a{
+	height:15%;
+	width:100%;
+}
+.b{
+	height:70%; 
+	width:100%; 
+	background:powderblue;
+}
+.c button{
+	background-color: lightgreen;
+	border: 1px solid green;
+	color: white;
+	padding: 10px 24px;
+	width: 50%;
+	display: block;
+}
+.c:not(:last-child){
+	border-bottom: none;
+}
+.c{
+	width:25%;
+}
+.d{
+	width:75%;
+}
+ul{
+	list-style-type: none;
+}
+.e{
+	 height:20%; 
+	 width:100%;
+}
+span{
+	color: red;
+	size: 150%;
+}
+.cc{
+	margin-top: 20px;
+	width:70%; 
+	height:250px;
+}
